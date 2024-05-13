@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ReadWise"
+        tools:targetApi="31">
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Philosophy.PhiloPdf4"
+            android:exported="false" />
+        <activity
+            android:name=".Philosophy.PhiloPdf3"
+            android:exported="false" />
+        <activity
+            android:name=".Philosophy.PhiloPdf2"
+            android:exported="false" />
+        <activity
+            android:name=".Philosophy.PhiloPdf1"
+            android:exported="false" />
+        <activity
+            android:name=".Philosophy.PhiloBook4"
+            android:exported="false" />
+        <activity
+            android:name=".Philosophy.PhiloBook3"
+            android:exported="false" />
+        <activity
+            android:name=".Philosophy.PhiloBook2"
+            android:exported="false" />
+        <activity
+            android:name=".Philosophy.PhiloBook1"
+            android:exported="false" />
+        <activity
+            android:name=".Magazine.MagazinePdf3"
+            android:exported="false" />
+        <activity
+            android:name=".Magazine.MagazinePdf2"
+            android:exported="false" />
+        <activity
+            android:name=".Magazine.MagazinePdf1"
+            android:exported="false" />
+        <activity
+            android:name=".Magazine.Magazine4"
+            android:exported="false" />
+        <activity
+            android:name=".Magazine.Magazine3"
+            android:exported="false" />
+        <activity
+            android:name=".Magazine.Magazine2"
+            android:exported="false" />
+        <activity
+            android:name=".Magazine.Magazine1"
+            android:exported="false" />
+        <activity
+            android:name=".ItBooks.ItPdf4"
+            android:exported="false" />
+        <activity
+            android:name=".ItBooks.ItPdf3"
+            android:exported="false" />
+        <activity
+            android:name=".ItBooks.ItPdf2"
+            android:exported="false" />
+        <activity
+            android:name=".ItBooks.ItPdf1"
+            android:exported="false" />
+        <activity
+            android:name=".ItBooks.ItBook4"
+            android:exported="false" />
+        <activity
+            android:name=".ItBooks.ItBook3"
+            android:exported="false" />
+        <activity
+            android:name=".ItBooks.ItBook2"
+            android:exported="false" />
+        <activity
+            android:name=".ItBooks.ItBook1"
+            android:exported="false" />
+        <activity
+            android:name=".HumanPsychology.HumanPdf4"
+            android:exported="false" />
+        <activity
+            android:name=".HumanPsychology.HumanPdf3"
+            android:exported="false" />
+        <activity
+            android:name=".HumanPsychology.HumanPdf2"
+            android:exported="false" />
+        <activity
+            android:name=".HumanPsychology.HumanPdf1"
+            android:exported="false" />
+        <activity
+            android:name=".HumanPsychology.HumanBook4"
+            android:exported="false" />
+        <activity
+            android:name=".HumanPsychology.HumanBook3"
+            android:exported="false" />
+        <activity
+            android:name=".HumanPsychology.HumanBook2"
+            android:exported="false" />
+        <activity
+            android:name=".HumanPsychology.HumanBook1"
+            android:exported="false" />
+        <activity
+            android:name=".Stories.StoryPdf4"
+            android:exported="false" />
+        <activity
+            android:name=".Stories.StoryPdf3"
+            android:exported="false" />
+        <activity
+            android:name=".Stories.StoryPdf2"
+            android:exported="false" />
+        <activity
+            android:name=".Stories.StoryPdf1"
+            android:exported="false" />
+        <activity
+            android:name=".Stories.StoryBook4"
+            android:exported="false" />
+        <activity
+            android:name=".Stories.StoryBook3"
+            android:exported="false" />
+        <activity
+            android:name=".Stories.StoryBook2"
+            android:exported="false" />
+        <activity
+            android:name=".Stories.StoryBook1"
+            android:exported="false" />
+        <activity
+            android:name=".LawBooks.LawPdf4"
+            android:exported="false" />
+        <activity
+            android:name=".LawBooks.LawPdf3"
+            android:exported="false" />
+        <activity
+            android:name=".LawBooks.LawPdf2"
+            android:exported="false" />
+        <activity
+            android:name=".LawBooks.LawPdf1"
+            android:exported="false" />
+        <activity
+            android:name=".LawBooks.LawBook4"
+            android:exported="false" />
+        <activity
+            android:name=".LawBooks.LawBook3"
+            android:exported="false" />
+        <activity
+            android:name=".LawBooks.LawBook2"
+            android:exported="false" />
+        <activity
+            android:name=".LawBooks.LawBook1"
+            android:exported="false" />
+        <activity
+            android:name=".ArabicBooks.ArabicPdf4"
+            android:exported="false" />
+        <activity
+            android:name=".ArabicBooks.ArabicPdf3"
+            android:exported="false" />
+        <activity
+            android:name=".ArabicBooks.ArabicPdf2"
+            android:exported="false" />
+        <activity
+            android:name=".ArabicBooks.ArabicPdf1"
+            android:exported="false" />
+        <activity
+            android:name=".ArabicBooks.FourthBook"
+            android:exported="false" />
+        <activity
+            android:name=".ArabicBooks.TherdBook"
+            android:exported="false" />
+        <activity
+            android:name=".ArabicBooks.SecondBook"
+            android:exported="false" />
+        <activity
+            android:name=".ArabicBooks.FirstBook"
+            android:exported="false" />
+        <activity
+            android:name=".Magazine.MagazineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Stories.StoriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ItBooks.ItActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LawBooks.LawActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Philosophy.PhilosophyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HumanPsychology.HumanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EnglishBooks.EnglishActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArabicBooks.ArabicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

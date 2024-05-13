@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "113772600291",
+    "project_id": "read-wise-a4a78",
+    "storage_bucket": "read-wise-a4a78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113772600291:android:362b0f47c6c4bab28b5ed6",
+        "android_client_info": {
+          "package_name": "com.read.wise"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLyhDCFq8JXewU9Z9XIAgbDGARjOKHQ6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

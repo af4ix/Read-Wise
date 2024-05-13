@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilebkg">
+
+    <LinearLayout
+        android:id="@+id/titleUsername"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/profileimg"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/logout"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WELCOME TO READ WISE"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/font2"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/userTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="username "
+            android:fontFamily="@font/font2"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/userinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleUsername"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/white_bak"
+        android:orientation="vertical">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/proUsername"
+                android:layout_weight="1"
+                android:text="USERNAME"
+                android:textStyle="bold"
+                android:textColor="#8181FF"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/profileUser"
+                android:text="name"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:textColor="#8181FF"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:alpha="0.5"
+            android:background="#8181FF"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/proEmail"
+                android:layout_weight="1"
+                android:text="Email"
+                android:textStyle="bold"
+                android:textColor="#8181FF"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/profileEmail"
+                android:text="email"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:textColor="#8181FF"
+                android:textSize="18sp"/>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:alpha="0.5"
+            android:background="#8181FF"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/proPassword"
+                android:layout_weight="1"
+                android:text="PASSWORD"
+                android:textStyle="bold"
+                android:textColor="#8181FF"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/profilePassword"
+                android:text="password"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:textColor="#8181FF"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/userinfo"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="LOGOUT"
+        android:textSize="18sp"
+        app:cornerRadius="20dp" />
+    
+</RelativeLayout>

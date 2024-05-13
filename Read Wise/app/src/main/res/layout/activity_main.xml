@@ -1,0 +1,340 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <ImageView
+                    android:id="@+id/logout"
+                    android:layout_centerVertical="true"
+                    android:layout_height="25dp"
+                    android:layout_width="25dp"
+                    android:src="@drawable/logout" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:fontFamily="@font/font3"
+                    android:id="@+id/app_name"
+                    android:textColor="#ceceff"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="READ WISE"
+                    android:textSize="28sp" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/search"
+                    android:layout_below="@id/app_name"
+                    android:layout_marginTop="-9dp"
+                    app:lottie_fileName="searchAnime.json"
+                    app:lottie_loop="true"
+                    android:elevation="10dp"
+                    app:lottie_autoPlay="true"
+                    app:lottie_speed="0.6"
+                    />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-70dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/arabicSection"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:elevation="8dp"
+                        android:background="@drawable/card1">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/arabic"
+                            android:layout_centerInParent="true"/>
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/font2"
+                        android:text="Arabic"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/englishSection"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:elevation="8dp"
+                        android:background="@drawable/card1">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/english"
+                            android:layout_centerInParent="true"/>
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="English"
+                        android:fontFamily="@font/font2"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/storiesSection"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:elevation="8dp"
+                        android:background="@drawable/card1">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/stories" />
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Stories"
+                        android:fontFamily="@font/font2"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/articleSection"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:elevation="8dp"
+                        android:background="@drawable/card1">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/article" />
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Magazines"
+                        android:fontFamily="@font/font2"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:padding="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="All Categories"
+                        android:fontFamily="@font/font2"
+                        android:textSize="20sp" />
+
+                </RelativeLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/humanpsychology"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="20dp"
+                    android:elevation="10dp"
+                    app:cardBackgroundColor="#B5B5BD">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:text="Human psychology"
+                        android:fontFamily="@font/font4"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="20dp"/>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="200dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/human"/>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/philosophy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="20dp"
+                    android:elevation="10dp"
+                    app:cardBackgroundColor="#BDBDC9">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:text="Philosophy and Logic"
+                        android:fontFamily="@font/font4"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="20dp"/>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="200dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/philosopher"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/law"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="20dp"
+                    android:elevation="10dp"
+                    app:cardBackgroundColor="#A1A2B2">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:text="Law and Judiciary"
+                        android:fontFamily="@font/font4"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="20dp"/>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="200dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/law"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/it"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="20dp"
+                    android:elevation="10dp"
+                    app:cardBackgroundColor="#797B92">
+
+                    <TextView
+                        android:layout_width="160dp"
+                        android:layout_height="50dp"
+                        android:text="Information Technology"
+                        android:fontFamily="@font/font4"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="20dp"/>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="200dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/it"/>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        
+    </ScrollView>
+
+
+
+    
+</LinearLayout>
